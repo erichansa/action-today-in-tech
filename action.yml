@@ -1,5 +1,5 @@
 name: 'Today in Tech History'
-description: 'Automatically injects today historical technology milestone and primary sources into your GitHub Profile README. Powered by Useful Finds Daily.'
+description: 'Injects today verified tech history milestone into your README. Powered by Useful Finds Daily.'
 author: 'Useful Finds Daily <editorial@useful-finds-daily.com>'
 branding:
   icon: 'clock'
