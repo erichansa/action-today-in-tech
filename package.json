@@ -1,0 +1,9 @@
+{
+  "name": "action-today-in-tech",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GitHub Action to inject today's tech history milestone into README.",
+  "main": "index.js",
+  "author": "Useful Finds Daily",
+  "license": "MIT"
+}

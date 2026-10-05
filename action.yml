@@ -1,0 +1,32 @@
+name: 'Today in Tech History'
+description: 'Automatically injects today historical technology milestone and primary sources into your GitHub Profile README. Powered by Useful Finds Daily.'
+author: 'Useful Finds Daily <editorial@useful-finds-daily.com>'
+branding:
+  icon: 'clock'
+  color: 'blue'
+
+inputs:
+  readme-path:
+    description: 'Path to the README file to update'
+    required: false
+    default: 'README.md'
+  tag-start:
+    description: 'Starting comment tag for injection'
+    required: false
+    default: '<!-- TODAY-IN-TECH:START -->'
+  tag-end:
+    description: 'Ending comment tag for injection'
+    required: false
+    default: '<!-- TODAY-IN-TECH:END -->'
+
+outputs:
+  title:
+    description: 'The title of today historical milestone'
+  date:
+    description: 'The historical event date'
+  url:
+    description: 'The full verified engineering story URL'
+
+runs:
+  using: 'node20'
+  main: 'index.js'
